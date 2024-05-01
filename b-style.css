@@ -1,0 +1,46 @@
+/*************************  Bolg Section *****************/
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.blogchild {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--light);
+    cursor: pointer;
+}
+
+.blogchild h2 {
+    color: var(--dark);
+}
+.blog {
+        width: 80%;
+        margin: auto;
+    }
+    .blog h1{
+        color: var(--dark);
+        margin: 15px 0;
+        font-size: 2.1rem;
+    }
+    .p-m {
+        margin: 8px 0;
+    }
+/************* All Media Queries   *****************/
+@media screen and (max-width:768px) {
+    .uul {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+    .blog{
+        width: unset;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+
+.contact h1 {
+    font-size: 2.1rem;
+    color: var(--dark);
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+}
+
+.pp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow {
+    flex-grow: 1;
+    padding: 20px 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px 0;
+    width: 140px;
+    height: 35px;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form input,
+textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--light);
+    width: 300px;
+    padding: 5px;
+}
+form label{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.social p{
+    margin: 10px 0;
+}
+.social h1{
+    margin-bottom: 10px ;
+}
+@media screen and (max-width:768px) {
+    .c-h{
+        display: none;
+    }
+
+
+}

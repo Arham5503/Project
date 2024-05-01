@@ -1,0 +1,83 @@
+/*************************  Bolg Section *****************/
+.work h1 {
+    font-size: 2.1rem;
+    color: var(--dark);
+}
+
+.work {
+    width: 80%;
+    margin: auto;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.blogchild {
+    padding: 15px 0;
+}
+
+.blogchild:last-child {
+    padding: 15px 15px;
+
+}
+
+.blogchild h2 {
+    color: var(--dark);
+}
+
+.sp {
+    margin: 10px 0;
+    display: flex;
+}
+
+.sp span {
+    font-size: 15px;
+    background-color: var(--dark);
+    color: white;
+    border-radius: 10px;
+    padding: 0 2px;
+}
+
+.blogchild img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.blog-post {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid var(--light);
+    cursor: pointer;
+}
+
+
+/************* All Media Queries   *****************/
+@media screen and (max-width:768px) {
+    
+    .post-child {
+        height: 200px;
+        margin: 10px 0;
+    }
+
+    .blogchild {
+        width: 100%;
+
+    }
+    .blog-post{
+        display: block;
+    }
+    .blogchild :first-child{
+        object-fit: fill;
+    }
+    .blogchild img{
+        width: 100%;
+        height: auto;
+        padding:  0;
+    }
+   
+}
