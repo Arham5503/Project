@@ -188,6 +188,7 @@
         justify-content: center;
     }
     .r-post {
+        width:auto;
         display: flex;
         flex-direction: column;
         align-items: center;
