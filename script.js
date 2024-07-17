@@ -10,6 +10,18 @@
         function contact(){
             window.location.assign("contact.html");
         }
+        function f(){
+        window.location.assign("");
+        }
+        function i(){        
+        window.location.assign("");
+        }
+        function l(){        
+        window.location.assign("https://www.linkedin.com/in/arham-ali-4a1658279/");
+        }
+        function g(){
+        window.location.assign("https://github.com/Arham5503");
+        }
         function func() {
             var x = document.getElementById("cont");
             console.log("clicked")
